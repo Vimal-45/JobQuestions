@@ -128,7 +128,7 @@ const MyNotes = () => {
               key={index}
               className="rounded mt-20 bg-slate-300 flex justify-around flex-wrap -skew-x-6 hover:-translate-y-1 hover:-translate-x-0 hover:skew-x-0 duration-500 p-2 card-compact hover:bg-base-200 transition-all duration-200 border border-black p-6 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700"
             >
-              <div className="w-2/4 shadow-lg shadow-red-500 p-3.5 rounded-2xl">
+              <div className="w-full md:w-2/4 shadow-lg shadow-red-500 p-3.5 rounded-2xl">
                 <div className="flex items-center flex-wrap  justify-between">
                   <div>
                     <img
@@ -242,7 +242,7 @@ const MyNotes = () => {
                 </div>
               </div>
 
-              <div className=" dark:bg-slate-800 gap-6 flex items-center justify-center">
+              <div className="w-full md:w-2/4 dark:bg-slate-800 gap-6 flex items-center justify-center">
                 <div className="bg-gray-100 dark:bg-gray-700 relative shadow-lg shadow-red-500 overflow-hidden hover:shadow-2xl group rounded-xl p-5 transition-all duration-500 transform">
                   <div className="flex flex-wrap items-center gap-4">
                     <img
